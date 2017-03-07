@@ -1,0 +1,19 @@
+
+plugin.tx_blog_blog {
+	view {
+		# cat=plugin.tx_blog_blog/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:blog/Resources/Private/Templates/
+		# cat=plugin.tx_blog_blog/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:blog/Resources/Private/Partials/
+		# cat=plugin.tx_blog_blog/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:blog/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_blog_blog//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
+
+plugin.tx_blog_blog.persistence.storagePid = 14

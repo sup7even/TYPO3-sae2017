@@ -1,0 +1,11 @@
+
+/fileadmin/
+/uploads/
+/typo3temp/
+/.idea
+*.log
+ENABLE_INSTALL_TOOL
+.DS_Store
+*.sql
+!/typo3*/**/*.sql
+*.tgz
