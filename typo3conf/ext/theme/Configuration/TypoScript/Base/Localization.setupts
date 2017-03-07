@@ -1,0 +1,14 @@
+config {
+    locale_all = de_DE.UTF8, de_AT.UTF8
+    language = de
+    sys_language_uid = 0
+#    sys_language_mode =
+}
+
+[globalVar = GP:L=1]
+    config {
+        locale_all = en_EN.UTF8
+        language = en
+        sys_language_uid = 1
+    }
+[global]
