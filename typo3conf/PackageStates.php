@@ -198,6 +198,12 @@ return [
             'packagePath' => 'typo3/sysext/recordlist/',
             'suggestions' => [],
         ],
+        'recycler' => [
+            'composerName' => 'typo3/cms-recycler',
+            'state' => 'active',
+            'packagePath' => 'typo3/sysext/recycler/',
+            'suggestions' => [],
+        ],
         'reports' => [
             'composerName' => 'typo3/cms-reports',
             'state' => 'active',
@@ -322,12 +328,6 @@ return [
             'composerName' => 'typo3/cms-opendocs',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/opendocs/',
-            'suggestions' => [],
-        ],
-        'recycler' => [
-            'composerName' => 'typo3/cms-recycler',
-            'state' => 'inactive',
-            'packagePath' => 'typo3/sysext/recycler/',
             'suggestions' => [],
         ],
         'sys_action' => [
