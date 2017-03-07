@@ -1,0 +1,15 @@
+lib.localMenu = HMENU
+lib.localMenu {
+    stdWrap {
+        wrap = <div class="panel panel-default"><ul class="nav nav-pills nav-stacked">|</ul></div>
+        required = 1
+    }
+    entryLevel = 1
+    1 = TMENU
+    1 {
+        NO = 1
+        NO {
+            wrapItemAndSub = <li class="nav-item">|</li>
+        }
+    }
+}

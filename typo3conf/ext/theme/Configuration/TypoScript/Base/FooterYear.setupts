@@ -1,0 +1,5 @@
+lib.footerYear = TEXT
+lib.footerYear {
+    stdWrap.date = U
+    stdWrap.strftime = %Y
+}

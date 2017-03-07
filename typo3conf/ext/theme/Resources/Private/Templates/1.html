@@ -1,0 +1,46 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+      xmlns:rx="http://typo3.org/ns/Reelworx/RxShariff/ViewHelper"
+      data-namespace-typo3-fluid="true">
+
+<f:render partial="Header" />
+
+<div class="container">
+
+    <div class="jumbotron">
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '20'}" />
+    </div>
+</div>
+
+
+<div class="container" role="main">
+
+    <div class="row mb30">
+        <div class="col-xs-12">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" />
+        </div>
+    </div>
+
+    <div class="row mb30">
+        <div class="col-xs-12 col-md-4">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '10'}" />
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '11'}" />
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '12'}" />
+        </div>
+    </div>
+
+    <div class="row mb30">
+        <div class="col-xs-12">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '5'}" />
+        </div>
+    </div>
+
+</div>
+
+<f:render partial="Footer" />
+
+</html>

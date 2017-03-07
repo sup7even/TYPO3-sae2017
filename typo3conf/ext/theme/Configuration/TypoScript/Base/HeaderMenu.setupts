@@ -1,0 +1,9 @@
+lib.headerMenu = HMENU
+lib.headerMenu {
+    wrap = <ul class="nav navbar-nav">|</ul>
+    1 = TMENU
+    1 {
+        NO = 1
+        NO.wrapItemAndSub = <li>|</li>
+    }
+}

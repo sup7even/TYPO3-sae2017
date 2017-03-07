@@ -1,0 +1,12 @@
+lib.sujet = IMG_RESOURCE
+lib.sujet {
+    file {
+        import.data = levelfield : -1, media, slide
+        treatIdAsReference = 1
+        import.listNum = 0
+    }
+    stdWrap {
+        wrap = <div class="sujet" style="background-image:url('/|');"></div>
+        required = 1
+    }
+}

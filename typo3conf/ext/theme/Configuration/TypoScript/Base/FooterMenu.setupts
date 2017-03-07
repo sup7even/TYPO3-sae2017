@@ -1,0 +1,11 @@
+lib.footerMenu = HMENU
+lib.footerMenu {
+    special = directory
+    special.value = 8
+    wrap = <ul class="list-inline">|</ul>
+    1 = TMENU
+    1 {
+        NO = 1
+        NO.wrapItemAndSub = <li>|</li>
+    }
+}

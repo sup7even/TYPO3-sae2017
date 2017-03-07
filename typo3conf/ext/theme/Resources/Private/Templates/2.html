@@ -1,0 +1,25 @@
+<f:render partial="Header" />
+
+<f:cObject typoscriptObjectPath="lib.sujet" />
+
+
+<div class="container" role="main">
+
+    <div class="row mb30">
+
+        <div class="col-md-8">
+            <h1>{data.title -> f:format.htmlspecialchars()}</h1>
+            <hr>
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" />
+        </div>
+
+        <div class="col-md-3 col-md-offset-1">
+            <f:cObject typoscriptObjectPath="lib.localMenu"/>
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '1'}" />
+        </div>
+    </div>
+
+</div>
+
+
+<f:render partial="Footer" />

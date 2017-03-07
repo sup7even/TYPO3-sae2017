@@ -1,0 +1,23 @@
+plugin.tx_news {
+    view {
+        templateRootPaths {
+            20 = EXT:theme/Resources/Private/Extension/News/Templates/
+        }
+        layoutRootPaths {
+            20 = EXT:theme/Resources/Private/Extension/News/Layouts/
+        }
+        partialRootPaths {
+            20 = EXT:theme/Resources/Private/Extension/News/Partials/
+        }
+    }
+
+    _LOCAL_LANG {
+        default {
+            more-link = more more
+        }
+    }
+
+    settings {
+        detail.showSocialShareButtons = 0
+    }
+}

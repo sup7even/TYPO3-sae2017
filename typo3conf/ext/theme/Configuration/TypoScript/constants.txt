@@ -1,0 +1,15 @@
+<INCLUDE_TYPOSCRIPT: source="DIR: EXT:theme/Configuration/TypoScript/Base" extensions="constantsts">
+
+site.word = Hallo Welt!
+site {
+    projectinfos {
+        phone = +123435
+        mail = foo@bar.at
+    }
+    uids {
+        startpage = 2
+    }
+    googleAnalytics {
+        id = ID1234567
+    }
+}
