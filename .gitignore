@@ -7,5 +7,6 @@
 ENABLE_INSTALL_TOOL
 .DS_Store
 *.sql
+!/dumps/**/*.sql
 !/typo3*/**/*.sql
 *.tgz
