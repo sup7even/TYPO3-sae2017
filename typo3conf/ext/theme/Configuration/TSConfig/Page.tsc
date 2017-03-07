@@ -1,0 +1,113 @@
+mod.web_layout.BackendLayouts {
+    Subpage {
+        title = Subpage (default)
+        config {
+            backend_layout {
+                colCount = 3
+                rowCount = 3
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = Hauptinhalt
+                                colspan = 2
+                                rowspan = 2
+                                colPos = 0
+                            }
+                            2 {
+                                name = Lokale Navigation
+                            }
+                        }
+                    }
+                    2 {
+                        columns {
+                            1 {
+                                name = Sidebar Inhalt
+                                colPos = 1
+                            }
+                        }
+                    }
+                    3 {
+                        columns {
+                            1 {
+                                name = Footertext
+                                colPos = 50
+                            }
+                            2 {
+                                name = Footer
+                                colspan = 2
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    Homepage {
+        title = Homepage (default)
+        config {
+            backend_layout {
+                colCount = 3
+                rowCount = 5
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = Introbereich
+                                colspan = 3
+                                colPos = 20
+                            }
+                        }
+                    }
+                    2 {
+                        columns {
+                            1 {
+                                name = Hauptinhalt
+                                colspan = 3
+                                colPos = 0
+                            }
+                        }
+                    }
+                    3 {
+                        columns {
+                            1 {
+                                name = Inhalt Spalte 1/3
+                                colPos = 10
+                            }
+                            2 {
+                                name = Inhalt Spalte 2/3
+                                colPos = 11
+                            }
+                            3 {
+                                name = Inhalt Spalte 3/3
+                                colPos = 12
+                            }
+                        }
+                    }
+                    4 {
+                        columns {
+                            1 {
+                                name = Weiterer Hauptinhalt
+                                colspan = 3
+                                colPos = 5
+                            }
+                        }
+                    }
+                    5 {
+                        columns {
+                            1 {
+                                name = Footertext
+                                colPos = 50
+                            }
+                            2 {
+                                name = Footer
+                                colspan = 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
